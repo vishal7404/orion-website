@@ -1,0 +1,28 @@
+.footerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    /* background: #; */
+    padding: 20px 0px;
+
+}
+
+.footerDiv>img {
+    width: 120px;
+}
+
+.footerIconsDiv>img {
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    margin: 0px 10px;
+    /* filter: grayscale(100); */
+    transition: all 0.5s;
+}
+
+.footerIconsDiv>img:hover {
+    /* filter: grayscale(50); */
+    transform: rotate(360deg) scale(1.4);
+}

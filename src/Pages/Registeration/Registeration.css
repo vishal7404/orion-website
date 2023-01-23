@@ -1,0 +1,131 @@
+.RegisterRow {
+    margin-top: 100px;
+    border: 1px solid var(--colorPrimary);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.registerDiv {
+    text-align: center;
+}
+
+.registerDiv>h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.registerDiv>input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registerDiv>button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.registerDiv>p {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.registerDiv>h3 {
+    color: var(--colorPrimary);
+    font-size: 19px;
+}
+
+.registerLoginDiv {
+    text-align: center;
+}
+
+.registerLoginDiv>p {
+    color: red;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.registerLoginDiv>h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.registerLoginDiv>p {
+    color: red;
+}
+
+.registerLoginDiv>h3 {
+    color: var(--colorPrimary);
+    margin-bottom: 25px;
+}
+
+.registerLoginDiv>h4 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.registerLoginDiv>button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    background: var(--colorPrimary);
+    color: #fff;
+    border: none;
+}
+
+
+/* ///////////////////// */
+.navbtn {
+    padding: 3px 40px;
+    font-size: 16px;
+}
+
+.navButtonDiv {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navButtonDiv img {
+    display: block;
+
+}
+
+@media (max-width: 767px) {
+    .navButtonDiv {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .navButtonDiv img {
+        margin: auto;
+        width: 150px !important;
+    }
+
+    .registerDiv {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 767px) {
+    .RegisterColLeft {
+        padding: 30px 50px;
+    }
+
+    .RegisterColRight {
+        padding: 30px 50px;
+    }
+}
